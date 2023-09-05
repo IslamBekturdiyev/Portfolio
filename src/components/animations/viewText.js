@@ -14,7 +14,7 @@ const ViewInTexts = (props) => {
   const item = {
     hidden: {
       y: "200%",
-      transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1}
+      transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1, staggerChildren: 0.12}
     },
     visible: {
       y: 0,

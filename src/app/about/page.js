@@ -1,9 +1,11 @@
 "use client";
+import PageWrapper from "@/components/PageWrapper";
 import AnimatedText from "@/components/animations/textanimation";
+import transition from "@/components/animations/transition";
 import SliderSkills from "@/components/sliderSkills";
 import styles from "@/components/styles/about.module.css";
 
-export default function AboutPage() {
+function AboutPage() {
   const sliderData = [
     {
       name: "html",
@@ -121,6 +123,7 @@ export default function AboutPage() {
 
   return (
     <section className="container page">
+      <PageWrapper>
       <div className={styles.contents}>
         <div className={styles.about_content}>
           <AnimatedText text="Greeting" classname="medium-bold-text" />
@@ -155,6 +158,9 @@ export default function AboutPage() {
         {/* slider */}
         <SliderSkills data={sliderData} />
       </div>
+      </PageWrapper>
     </section>
   );
 }
+
+export default  transition(AboutPage)

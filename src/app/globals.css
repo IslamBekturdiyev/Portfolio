@@ -156,6 +156,30 @@ body {
   color: #9747ff;
 }
 
+
+/* transition animation */
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: bottom;
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: top;
+}
+
+
 /* media queries */
 
 @media only screen and (max-width: 1140px) {
@@ -174,6 +198,13 @@ body {
   .section{
     height: auto;
   }
+  body{
+    cursor: inherit;
+  }
+  .custom-cursor{
+    display: none;
+  }
+  
 }
 
 @media only screen and (max-width: 600px) {

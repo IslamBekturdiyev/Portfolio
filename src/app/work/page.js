@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 import ViewInTexts from "@/components/animations/viewText";
 import styles from "@/components/styles/about.module.css";
 import Link from "next/link";
+import PageWrapper from "@/components/PageWrapper";
+import transition from "@/components/animations/transition";
 
-export default function WorkPage() {
+function WorkPage() {
   const dataCart = [
     {
       title: "Anime Time",
@@ -53,6 +55,7 @@ export default function WorkPage() {
   };
 
   return (
+    <PageWrapper>
     <section className="container page">
       <div className={styles.work_grid}>
         {dataCart.map((card, index) => (
@@ -77,5 +80,8 @@ export default function WorkPage() {
         ))}
       </div>
     </section>
+    </PageWrapper>
   );
 }
+
+export default transition(WorkPage)

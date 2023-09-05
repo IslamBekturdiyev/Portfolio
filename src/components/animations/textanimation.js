@@ -8,7 +8,7 @@ const AnimatedText = ({ text, classname }) => {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
       opacity: 1,
-      transition: { staggerChildren: 0.12, delayChildren: 1.2 * 1},
+      transition: { staggerChildren: 0.12, delayChildren: 1.2 * 1, delay: 0.3},
     }),
   };
 
@@ -21,7 +21,7 @@ const AnimatedText = ({ text, classname }) => {
         type: "spring",
         damping: 12,
         stiffness: 100,
-        delay: 0.3 * index,
+        delay: 0.5 * index,
       },
     }),
     hidden: {

@@ -1,9 +1,12 @@
 "use client";
 import styles from "@/components/styles/about.module.css";
 import AnimatedText from "@/components/animations/textanimation";
+import PageWrapper from "@/components/PageWrapper";
+import transition from "@/components/animations/transition";
 
-export default function ContactPage() {
+function ContactPage() {
   return (
+    <PageWrapper>
     <section className="container page">
       <div className={styles.contact_grid}>
         <div className={styles.grid_form}>
@@ -43,5 +46,8 @@ export default function ContactPage() {
         </div>
       </div>
     </section>
+    </PageWrapper>
   );
 }
+
+export default transition(ContactPage);
