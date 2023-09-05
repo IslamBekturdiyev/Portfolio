@@ -1,0 +1,85 @@
+.Home_content {
+  width: 100%;
+  height: calc(100vh - 71px);
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 4rem;
+}
+
+.head_home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* social links */
+.socials_box svg {
+  color: #000;
+}
+
+.socials_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.socials_box span {
+  border: 1px solid #e8e7ea;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.socials_box span:hover{
+  border-color: #000;
+}
+
+/* circle text animation */
+.circle{
+  position: relative;
+}
+.mouse{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rotate_text{
+  animation: rotate 10s linear infinite;
+}
+
+.circle circle{
+  animation: moveUpDown 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the vertical distance as needed */
+  }
+}
+
+
+
+/* horizontal scrolling text */
+.carousel{
+  margin: 6rem 0;
+}
