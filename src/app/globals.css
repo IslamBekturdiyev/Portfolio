@@ -12,6 +12,7 @@
   box-sizing: border-box;
   cursor: none;
   scroll-behavior: smooth;
+  /* overflow-x: hidden !important; */
 }
 /* cursor */
 .custom-cursor {
@@ -121,39 +122,6 @@ body {
 .parallax span {
   display: block;
   margin-right: 30px;
-}
-
-/* tagCloud animation */
-.text-shpere {
-  position: relative;
-  top: 0;
-  /* width: 100%; */
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: transparent;
-}
-
-.tagcloud {
-  display: inline-block;
-  top: 0;
-  left: 0;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.0625em;
-  font-size: 1.3em;
-}
-
-/* Change color of each text in sphere on hover   */
-.tagcloud--item {
-  color: #000;
-  text-transform: uppercase;
-  /* font-size: 20px; */
-}
-
-.tagcloud--item:hover {
-  color: #9747ff;
 }
 
 

@@ -24,6 +24,8 @@ const Cursor = () => {
             if (link.classList.contains('open')) {
                 gsap.to(cursor, {scale:4})
                 cursorText.style.display = 'block';
+            }else if(link.classList.contains('button')) {
+                gsap.to(cursor, {scale:1})
             }else{
                 gsap.to(cursor, {scale:4})
             }

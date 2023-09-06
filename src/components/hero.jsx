@@ -12,8 +12,8 @@ import transition from "./animations/transition";
 
 function Hero() {
   return (
-    <main>
-      <PageWrapper>
+    <PageWrapper>
+      <main>
         <div className={`container ${styles.Home_content}`}>
           <div className={styles.head_home}>
             <p className="smallest-grey-text">Hello people!</p>
@@ -59,8 +59,8 @@ function Hero() {
         <section className="container">
           <Talk />
         </section>
-      </PageWrapper>
-    </main>
+      </main>
+    </PageWrapper>
   );
 }
 

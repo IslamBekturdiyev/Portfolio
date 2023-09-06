@@ -83,3 +83,10 @@
 .carousel{
   margin: 6rem 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .head_home{
+    justify-content: flex-start;
+    gap: 30%;
+  }
+}
