@@ -121,6 +121,13 @@ function AboutPage() {
     },
   ];
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/cv.pdf';
+    link.download = 'cv.pdf';
+    link.click();
+  };
+
   return (
     <section className="container page">
       <PageWrapper>
@@ -138,7 +145,7 @@ function AboutPage() {
               </p>
             </div>
 
-            <button className={styles.cta}>
+            <button className={styles.cta} onClick={handleDownload}>
               <span>Resume</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

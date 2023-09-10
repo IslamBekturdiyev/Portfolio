@@ -11,37 +11,37 @@ function WorkPage() {
     {
       title: "Anime Time",
       number: "/01",
-      link: "/",
+      link: "https://anime-mu-liart.vercel.app/",
       used: ["NextJs 13", "Typescript", "Jikan Api", "Swiper Js"],
     },
     {
       title: "E-commerce",
       number: "/02",
-      link: "/",
+      link: "",
       used: ["NextJs 13", "Typescript", "Fakestore Api", "Tailwind css"],
     },
     {
       title: "GUM",
       number: "/03",
-      link: "/",
+      link: "https://gum.squareone.uz/",
       used: ["NextJs 13", "i18 react", "FloorPlanner", "Yandex Maps"],
     },
     {
       title: "Blog CMS",
       number: "/04",
-      link: "/",
+      link: "https://blog-brown-omega.vercel.app/",
       used: ["NextJs 12", "Sass", "GraphQL", "Tailwind css", "GraphQL CMS"],
     },
     {
       title: "Hangman",
       number: "/05",
-      link: "/",
+      link: "https://hangman-zeta-three.vercel.app/",
       used: ["React vite", "Typescript"],
     },
     {
       title: "Hulu Clone",
       number: "/06",
-      link: "/",
+      link: "https://hulu-clone-seven-blush.vercel.app/",
       used: ["NextJs 12", "TMDb Api", "React Flip"],
     },
   ];

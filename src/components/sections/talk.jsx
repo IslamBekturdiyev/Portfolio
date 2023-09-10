@@ -51,7 +51,7 @@ export default function Talk() {
           <div className={styles.left_info}>
             <p>Uzbekistan, Tashkent</p>
             <p>islambekturdiyev@gmail.com</p>
-            <p>+998 (94) 044 33 62</p>
+            <p>+998 (94) 044 33 66</p>
           </div>
         </div>
       </footer>

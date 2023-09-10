@@ -59,6 +59,7 @@
   position: relative;
 }
 
+
 /* contsct form  */
 .contact_grid {
   width: 100%;
@@ -99,11 +100,18 @@
 .group input:focus ~ label,
 .group input:valid ~ label,
 .group textarea:focus ~ label,
-.group textarea:valid ~ label {
+.group textarea:valid ~ label, .correctForm {
   top: -14px;
   font-size: 16px;
   color: #909090;
 }
+
+.errorLabel{
+  color: red !important;
+  top: -14px !important;
+  font-size: 16px;
+}
+
 
 .group input:focus ~ .bar:before,
 .group textarea:focus ~ .bar:before {

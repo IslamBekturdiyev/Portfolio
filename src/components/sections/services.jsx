@@ -31,8 +31,8 @@ export default function Services() {
           <p className="smallest-grey-text">Transforming designs into code realities</p>
         </div>
         <div className={styles.services_box}>
-          <h2 className="small-bold-black-text">Content</h2>
-          <p className="smallest-grey-text">Weaving words that engage and inspire</p>
+          <h2 className="small-bold-black-text">Deployment</h2>
+          <p className="smallest-grey-text">Converting Code into Functional Systems</p>
         </div>
         <div className={styles.services_box}>
           <h2 className="small-bold-black-text">Content</h2>
