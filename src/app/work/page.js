@@ -17,7 +17,7 @@ function WorkPage() {
     {
       title: "E-commerce",
       number: "/02",
-      link: "",
+      link: "https://e-commerce-beta-kohl.vercel.app/",
       used: ["NextJs 13", "Typescript", "Fakestore Api", "Tailwind css"],
     },
     {
